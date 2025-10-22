@@ -51,9 +51,9 @@ public class homework2 {
             int stc = sc.nextInt();
             String na = sc.next();
             String ma = sc.next();
-            long pn = sc.nextLong();
+            long pn = sc.nextLong(); // 입력을 stc, na, ma, pn에 저장
 
-            students[i] = new Student(stc, na, ma, pn); // 생성자 호출, 클래스안의 필드 초기화
+            students[i] = new Student(stc, na, ma, pn); // 생성자 호출, 클래스안의 필드 초기화, 입력을 배열에 쌓음
         }
         System.out.println("입력된 학생들의 정보는 다음과 같습니다.");
 
